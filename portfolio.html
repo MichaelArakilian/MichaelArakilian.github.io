@@ -183,43 +183,75 @@
       </div>
     </section>
 
-    <footer class="ftco-footer ftco-bg-dark ftco-section">
+    <!-- Subscribe Ribbon -->
+    <section class="ftco-domain">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-lg-5 heading-white mb-4 mb-sm-4 mb-lg-0 ftco-animate">
+            <h2>Stay in the loop</h2>
+            <p>Subscribe to our newsletter for popular posts, news, and updates on the highly anticipated Startrev 2.0</p>
+          </div>
+          <div class="col-lg-7 ftco-wrap ftco-animate">
+            <div class="domain-form d-flex">
+              <div class="form-group domain-name">
+                <input type="text" class="form-control name px-4" placeholder="example@email.com" id="email">
+              </div>
+              <div class="form-group domain-select d-flex">
+                <input id="removeShadow" type="submit" class="search-domain btn btn-primary text-center" value="Subscribe" onclick="emailSignUp()">
+              </div>
+            </div>
+            <div id="validationResponse" class="resp-message"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Subscribe Ribbon -->
+
+    <!-- Footer -->
+    <footer class="ftco-footer ftco-bg-dark ftco-section" style="background-color: black;">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">WebHost</h2>
+              <h2 class="ftco-heading-2">STARTREV</h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://twitter.com" target="_blank"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://facebook.com" target="_blank"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://instagram.com" target="_blank"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://pinterest.com" target="_blank"><span class="icon-pinterest"></span></a></li>
+                <li class="ftco-animate"><a href="https://tumblr.com" target="_blank"><span class="icon-tumblr"></span></a></li>
+                <li class="ftco-animate"><a href="https://medium.com" target="_blank"><span class="icon-medium"></span></a></li>
+                <li class="ftco-animate"><a href="https://linkedin.com" target="_blank"><span class="icon-linkedin"></span></a></li>
+                <li class="ftco-animate"><a href="https://youtube.com" target="_blank"><span class="icon-youtube"></span></a></li>
+                <li class="ftco-animate"><a href="https://plus.google.com/" target="_blank"><span class="icon-google-plus"></span></a></li>
+
               </ul>
             </div>
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4 ml-md-5">
-              <h2 class="ftco-heading-2">Unseful Links</h2>
+              <h2 class="ftco-heading-2">Resources</h2>
               <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Servers</a></li>
-                <li><a href="#" class="py-2 d-block">Windos Hosting</a></li>
-                <li><a href="#" class="py-2 d-block">Cloud Hosting</a></li>
-                <li><a href="#" class="py-2 d-block">OS Servers</a></li>
-                <li><a href="#" class="py-2 d-block">Linux Servers</a></li>
+                <li><a href="#" class="py-2 d-block">Awards</a></li>
+                <li><a href="#" class="py-2 d-block">Projects</a></li>
+                <li><a href="#" class="py-2 d-block">Roadmap</a></li>
+                <li><a href="#" class="py-2 d-block">FAQ</a></li>
+                <li><a href="#" class="py-2 d-block">Terms</a></li>
                 <li><a href="#" class="py-2 d-block">Policy</a></li>
               </ul>
             </div>
           </div>
           <div class="col-md">
              <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Navigational</h2>
+              <h2 class="ftco-heading-2">Pages</h2>
               <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Home</a></li>
-                <li><a href="#" class="py-2 d-block">Domain</a></li>
-                <li><a href="#" class="py-2 d-block">Hosting</a></li>
-                <li><a href="#" class="py-2 d-block">About</a></li>
-                <li><a href="#" class="py-2 d-block">Blog</a></li>
-                <li><a href="#" class="py-2 d-block">Contact</a></li>
+                <li><a href="#" class="py-2 d-block">HOME</a></li>
+                <li><a href="#" class="py-2 d-block" style="color:#56e58e;">COMPANY</a></li>
+                <li><a href="#" class="py-2 d-block">SERVICES</a></li>
+                <li><a href="#" class="py-2 d-block">PORTFOLIO</a></li>
+                <li><a href="#" class="py-2 d-block">STARTREV 2.0</a></li>
+                <li><a href="#" class="py-2 d-block">CONTACT</a></li>
               </ul>
             </div>
           </div>
@@ -228,10 +260,10 @@
             	<h2 class="ftco-heading-2">Office</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
-	              </ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">203 Yomamashouse, San Francisco, California, USA</span></li>
+	                <li><a href="contact.html"><span class="icon icon-phone"></span><span class="text">+1 800-000-0000</span></a></li>
+	                <li><a href="contact.html"><span class="icon icon-envelope"></span><span class="text">info@startrev.com</span></a></li>
+                </ul>
 	            </div>
             </div>
           </div>
@@ -239,19 +271,35 @@
         <div class="row">
           <div class="col-md-12 text-center">
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="#">Privacy</a> | <a href="#">Terms</a> | <a href="#">Site Map</a></p>
           </div>
         </div>
       </div>
+      <div class="to-the-top"><a href="#"><span class="icon icon-arrow-up"></a></div>
     </footer>
-    
-  
+    <!-- End of Footer -->
+
+
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
+  <!-- Scripts -->
+
+  <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase-database.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBvNSvJjg3Pe5iSk4NRSUnRU13XdjRzbw8",
+      authDomain: "startrev-9b16e.firebaseapp.com",
+      databaseURL: "https://startrev-9b16e.firebaseio.com",
+      projectId: "startrev-9b16e",
+      storageBucket: "startrev-9b16e.appspot.com",
+      messagingSenderId: "776430286631"
+    };
+    firebase.initializeApp(config);
+  </script>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -265,11 +313,12 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
+  <!-- <script src="js/jquery.timepicker.min.js"></script> -->
   <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script> -->
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+  <script src="js/functions.js"></script>
+
   </body>
 </html>
