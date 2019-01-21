@@ -7377,11 +7377,8 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 20px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 14px;
-    padding-top: .9rem;
-    padding-bottom: .9rem;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 12px;
+    padding: 7px 11px;
     color: #fff;
     font-weight: 400;
     opacity: 1 !important; }
@@ -7677,7 +7674,7 @@ h1, h2, h3, h4, h5,
             .owl-carousel.home-slider .slider-item .slider-text .breadcrumbs span a {
               color: #fff; }
       .owl-carousel.home-slider .slider-item.bread-item {
-        height: 280px !important; }
+        height: 250px !important; }
         @media (max-width: 1199.98px) {
           .owl-carousel.home-slider .slider-item.bread-item {
             background-position: center center !important; } }
