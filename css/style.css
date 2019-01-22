@@ -7420,7 +7420,7 @@ h1, h2, h3, h4, h5,
         .ftco-navbar-light .navbar-nav > .nav-item.cta > a span {
           font-weight: 500;
           display: inline-block;
-          background: #fb83b5;
+           background: #fb83b5;
           background: -moz-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
           background: -webkit-gradient(left bottom, right top, color-stop(0%, #fb83b5), color-stop(100%, #9a51ff));
           background: -webkit-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
@@ -7673,13 +7673,23 @@ h1, h2, h3, h4, h5,
             border-bottom: 2px solid rgba(255, 255, 255, 0.1); }
             .owl-carousel.home-slider .slider-item .slider-text .breadcrumbs span a {
               color: #fff; }
+
       .owl-carousel.home-slider .slider-item.bread-item {
         height: 250px !important; }
+        @media (max-width: 767.98px) {
+      .owl-carousel.home-slider .slider-item.bread-item {
+        height: 150px !important; } }
+
         @media (max-width: 1199.98px) {
           .owl-carousel.home-slider .slider-item.bread-item {
             background-position: center center !important; } }
-        .owl-carousel.home-slider .slider-item.bread-item .slider-text {
-          height: 300px; }
+
+      .owl-carousel.home-slider .slider-item.bread-item .slider-text {
+        height: 300px; }
+        @media (max-width: 767.98px) {
+      .owl-carousel.home-slider .slider-item.bread-item .slider-text {
+        height: 150px !important; } }
+          
     .owl-carousel.home-slider .owl-nav .owl-prev span,
     .owl-carousel.home-slider .owl-nav .owl-next span {
       color: #fff; }
@@ -9420,7 +9430,7 @@ background: linear-gradient(to top, #181818, #BA8B02); /* W3C, IE 10+/ Edge, Fir
      opacity: .5;
   }
 
-/*** START: CUSTOM CSS ***/
+/*** START: Custom CSS ***/
 
 #img-partners {
   height: 50px;
@@ -9428,15 +9438,6 @@ background: linear-gradient(to top, #181818, #BA8B02); /* W3C, IE 10+/ Edge, Fir
 #img-technologies {
   height: 75px;
 }
-
-#digital-marketing {
-  background-image: url(/Users/justinperez/Downloads/STARTREV/images/digital-marketing2.jpg);
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
 /*Time to apply widths for accordian to work
 Width of image = 640px
@@ -9565,10 +9566,9 @@ width: 640px;
 	border-color:#777;
 	transition:0.5s;
 }
-/* End: Our Team Main */
+/*** End: Our Team Main ***/
 
 /* Start: Blog Cards */
-
 #blog-comments {
   float: right;
 }
