@@ -41,71 +41,12 @@
 
 <script src='//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script>
 <script src='//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script>
-
 <!------ Include the above in your HEAD tag ---------->
 
 <style>
-.item {
-/* 	background: #FFF; */
-	margin: 2em;
-	display: inline-block;
-	width: 250px;
-	height: 175px;
-	transform: rotate(45deg);
-	position: relative;
-	overflow: hidden;
-	transition: all 0.3s ease-in-out;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	margin: 0 auto;
-}
-.item p {
-	position: absolute;
-	transform: rotate(-45deg);
-	top: 30%;
-	background: #ffca0a;
-	padding: 7px 7px;
-	color: #fff;
-	transition: all 0.3s ease-in-out;
-	
-}
-.item:hover {
-	transform: none;
-	transform: scale(1.5);
-	z-index:2;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-.item:hover > p {
-	transform: none;
-	top: 0;
-	
-}
-img {
-	width: 100%;
-	height: 100%;
-	transition: 0.3s linear;
-	transform: rotate(-45deg) scale(1.4) 
-}
-.item:hover > img {
-	transform: none;
-	
-}
-body::-webkit-scrollbar
-{
-	width: 0.7em;
-	background-color: #EEE;
-}
-
-body::-webkit-scrollbar-thumb{
-/* 	background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
-	background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-/* 	background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
-/*   background: linear-gradient(to top, #2193b0, #6dd5ed);  */
-	border-radius:1em;
-}
-
 .slider {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,10 +115,8 @@ body::-webkit-scrollbar-thumb{
 .slider__images-item img {
   display: block;
   position: relative;
-  left: -1em;
-  top: -1em;
   width: calc(100% + 1em * 2);
-  height: calc(100% + 1em * 2);
+  /* height: calc(100% + 1em * 2); */
   -o-object-fit: cover;
      object-fit: cover;
   will-change: transform;
@@ -472,7 +411,7 @@ body::-webkit-scrollbar-thumb{
 }
 </style>
 </head>
-<body class="bg-dark">
+<body>
 
   <!-- START nav -->
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
@@ -528,7 +467,7 @@ body::-webkit-scrollbar-thumb{
                 <div class="our-team-main border border-electric-gold">
                 <div class="team-front">
                 <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/cajonga-site.png?491138314945674961" class="img-fluid rounded" />
-                <h3 class="electric-gold">Cajonga</h3>
+                <h5 class="text-center electric-gold">Cajonga</h5>
                 </div>
                 <div class="team-back">
                 <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/2000/5593/files/Canjonga_Logo.png?9451180045391262407" />
@@ -542,7 +481,7 @@ body::-webkit-scrollbar-thumb{
                 <div class="our-team-main border border-electric-gold">
                 <div class="team-front">
                 <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/bestofblinds.png?491138314945674961" class="img-fluid rounded" />
-                <h3 class="electric-gold">Best of Blinds</h3>
+                <h5 class="text-center electric-gold">Best of Blinds</h5>
                 </div>
                 <div class="team-back">
                 <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/bestofblinds-logo.png?2053821576217094197" />
@@ -556,7 +495,7 @@ body::-webkit-scrollbar-thumb{
                 <div class="our-team-main border border-electric-gold">
                 <div class="team-front">
                 <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/southbaytechgurus.png?491138314945674961" class="img-fluid rounded" />
-                <h3 class="electric-gold">Southbay Tech Gurus</h3>
+                <h5 class="text-center electric-gold">Southbay Tech Gurus</h5>
                 </div>
                 <div class="team-back">
                 <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/southbaytechgurus-logo.jpg?2053821576217094197" />
@@ -570,7 +509,7 @@ body::-webkit-scrollbar-thumb{
                 <div class="our-team-main border border-electric-gold">
                 <div class="team-front">
                 <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/columbiametalspin.png?491138314945674961" class="img-fluid rounded" />
-                <h3 class="electric-gold">Columbia Metal Spin</h3>
+                <h5 class="text-center electric-gold">Columbia Metal Spin</h5>
                 </div>
                 <div class="team-back">
                 <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/columbiametals-logo.png?2053821576217094197" />
@@ -584,7 +523,7 @@ body::-webkit-scrollbar-thumb{
                 <div class="our-team-main border border-electric-gold">
                 <div class="team-front">
                 <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/glamourhairbyhala-site.png?491138314945674961" class="img-fluid rounded" />
-                <h3 class="electric-gold">Glamour Hair By Hala</h3>
+                <h5 class="text-center electric-gold">Glamour Hair By Hala</h5>
                 </div>
                 <div class="team-back">
                 <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/glamourhairbyhala-logo.png?2053821576217094197" />
@@ -598,7 +537,7 @@ body::-webkit-scrollbar-thumb{
                 <div class="our-team-main border border-electric-gold">
                 <div class="team-front">
                 <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/roadstar-detailing.png?491138314945674961" class="img-fluid rounded" />
-                <h3 class="electric-gold">Roadstar Detailing</h3>
+                <h5 class="text-center electric-gold">Roadstar Detailing</h5>
                 </div>
                 <div class="team-back">
                 <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/roadstarr-detailing.jpg?2053821576217094197" />
@@ -606,6 +545,20 @@ body::-webkit-scrollbar-thumb{
                 </div>
                 </div>
                 <!--team-6-->
+
+                <!--team-8-->
+                <div class="col-lg-4">
+                  <div class="our-team-main border border-electric-gold">
+                  <div class="team-front">
+                  <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/kirosautorepair.png?17905037537723910705" class="img-fluid rounded" />
+                  <h5 class="text-center electric-gold">Kiro's Auto Repair</h5>
+                  </div>
+                  <div class="team-back">
+                  <img class="img-fluid" src="#" />
+                  </div>
+                  </div>
+                  </div>
+                <!--team-8--->
                 
                 </div>
                 </div>
@@ -613,29 +566,29 @@ body::-webkit-scrollbar-thumb{
         </section>
 
 <div class="slider" id="slider" style="--img-prev:url(https://lh3.googleusercontent.com/aC9nyW5dhaYFmWD8fcf8DApjpH08eHEkbCHqmUPHRQ5T3jK-QyNKZYVMehmrvyPdEA_KxWvgZ3_kyOOYOAv99Ow3UoKSvEloleVKGSfLOwOyDV3Q6Dwi1G-NYoa9-t_ofmmskE6BYnVIOnIz2HWlMcijzIEwvKAL_R4z63DaLgG0z_OcGiSQHunwGAPXrBQUv42ZXuIMODq4zxDHczSxJ72b0-_udtdQK3JuT2X8nXCwFoF7GxmOpzXS0H5f50DuCbXoXcx-O7bgBMCXZdMpTxB27-wdXeLmxpYUySXgjSN2NAKmK16DmGLYvw5tMlrqwb8h4MJEEbXjP1pjPxXsahb7UZseEGyn80uLjATANJvusyJWCtzkkxYXPz-yI1rDvfEJKe2eyA-5AvFlzFBSwBMASn8f7mXinUrXMMREkJQjoi89NfZ91G7253OEVQOqcWxddiYtcHCO5v6Pl3QfV2SUTWXgggscDSY2ezjSPpYERNTXnIM_aCyWmIG7ybrfqOB0eVYBAgynyuPVbjd4KuZWZq2Dfu33HX1RuPKglbOuZGD1QbpJnruvUVkAmjDXI40ENN7X=w1600-h766)"> 
-  <div class="slider__content border border-electric-gold" id="slider-content">
+  <div class="slider__content rounded border border-electric-gold" id="slider-content">
     <div class="slider__images">
-      <div class="slider__images-item slider__images-item--active" data-id="1"><img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/cajonga-site.png?491138314945674961"/></div>
-      <div class="slider__images-item" data-id="2"><img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/glamourhairbyhala-site.png?491138314945674961"/></div>
-      <div class="slider__images-item" data-id="3"><img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/roadstar-detailing.png?491138314945674961"/></div>
+      <div class="slider__images-item slider__images-item--active" data-id="1"><img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/english-rabbit.png?12852055603759396504"/></div>
+      <div class="slider__images-item" data-id="2"><img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/jofrevintage.png?491138314945674961"/></div>
+      <div class="slider__images-item" data-id="3"><img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/loft88realty.png?6105084872843069130"/></div>
       <div class="slider__images-item" data-id="4"><img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/bestofblinds.png?491138314945674961"/></div>
       <div class="slider__images-item" data-id="5"><img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/southbaytechgurus.png?491138314945674961"/></div>
     </div>
     <div class="slider__text">
       <div class="slider__text-item slider__text-item--active" data-id="1">
         <div class="slider__text-item-head">
-          <h3>Cajonga.com</h3>
+          <h3>English Rabbit</h3>
         </div>
         <div class="slider__text-item-info">
-          <p>cajonga.com</p>
+          <p>englishrabbit.com</p>
         </div>
       </div>
       <div class="slider__text-item" data-id="2">
         <div class="slider__text-item-head">
-          <h3>Glamour Hair By Hala</h3>
+          <h3>Jofre Vintage</h3>
         </div>
         <div class="slider__text-item-info">
-          <p>glamourhairbyhala.com</p>
+          <p>jofrevintage.com</p>
         </div>
       </div>
       <div class="slider__text-item" data-id="3">
@@ -648,10 +601,10 @@ body::-webkit-scrollbar-thumb{
       </div>
       <div class="slider__text-item" data-id="4">
           <div class="slider__text-item-head">
-            <h3>Best of Blinds</h3>
+            <h3>Loft 88 Realty</h3>
           </div>
           <div class="slider__text-item-info">
-            <p>bestofblinds.com</p>
+            <p>loft88realty.com</p>
           </div>
         </div>
         <div class="slider__text-item" data-id="5">
@@ -678,58 +631,6 @@ body::-webkit-scrollbar-thumb{
     </div>
   </div>
 </div>
-
-<div class="container border border-electric-gold"> 
-    <div class="row justify-content-center mb-3 pb-3">   
-
-      <div class="item tm1 rounded border border-electric-gold">
-        <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/columbiametalspin.png?491138314945674961">
-      <p class="rounded">Columbia Metal Spin</p>
-    </div>  
-      <div class="item tm2 rounded border border-electric-gold">
-        <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/southbaytechgurus.png?491138314945674961">
-      <p class="rounded">South Bay Tech Gurus</p>
-      </div>
-        <div class="item tm3 rounded border border-electric-gold">
-          <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/english-rabbit.png?12852055603759396504">
-      <p class="rounded">English Rabbit</p>
-      </div>
-      <div class="item tm4 rounded border border-electric-gold">
-        <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/kirosautorepair.png?17905037537723910705">
-      <p class="rounded">Kiro's Auto Repair</p>
-      </div>
-
-      <br>
-
-      <span>
-      <div class="item tm5 rounded border border-electric-gold">
-        <img src="#">
-      <p class="rounded">The Little Gentlemen</p>
-    </div>
-    
-      <div class="item tm6 rounded border border-electric-gold">
-      <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/loft88realty.png?6105084872843069130">
-      <p class="rounded">Loft 88 Realty</p>
-      </div>
-    
-        <div class="item tm7 rounded border border-electric-gold">
-        <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/glamourhairbyhala-site.png?491138314945674961">
-      <p class="rounded">Glamour Hair By Hala</p>
-      </div>
-    <span>
-
-      <div class="item tm8 rounded border border-electric-gold">
-        <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/jofrevintage.png?491138314945674961">
-      <p class="rounded">Jofre Vintage</p>
-    </div>
-
-        <div class="item tm3 rounded border border-electric-gold">
-          <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/jofrevintage.png?491138314945674961">
-      <p class="rounded">Jofre Vintage</p>
-      </div>
-    </div>
-    </div>
-  <br>
 
   <footer class="section footer-classic border border-space-grey" style="background: #000;">
     <div class="container">
@@ -771,20 +672,21 @@ body::-webkit-scrollbar-thumb{
           </div>
         </div>
 
-          <div class="col-md-3">
-              <div class="mt-3">
-              <div class="ftco-footer-widget mb-3 ml-md-5">
-                <h4 class="ftco-heading-2">Navigate</h4>
-                <ul class="list-unstyled">
-                  <li><a href="contact.html" class="py-2 d-block">Contact</a></li>
-                  <li><a href="services.html" class="py-2 d-block">Services</a></li>
-                  <li><a href="portfolio.html" class="py-2 d-block">Portfolio </a></li>
-                  <li><a href="about.html" class="py-2 d-block">Company</a></li>
-                  <li><a href="blog.html" class="py-2 d-block">Launch Blog</a></li>
-                </ul>
-              </div>
+        <div class="col-md-3">
+            <div class="mt-3">
+            <div class="ftco-footer-widget mb-3 ml-md-5">
+              <h4 class="ftco-heading-2">Navigate</h4>
+              <ul class="list-unstyled">
+                <li><a href="packages.html" class="py-2 d-block">Packages</a></li>
+                <li><a href="services.html" class="py-2 d-block">Services</a></li>
+                <li><a href="blog.html" class="py-2 d-block">Launch Blog</a></li>
+                <li><a href="portfolio.html" class="py-2 d-block">Portfolio </a></li>
+                <li><a href="about.html" class="py-2 d-block">Company</a></li>
+                <li><a href="contact.html" class="py-2 d-block">Contact</a></li>
+              </ul>
             </div>
-            </div>
+          </div>
+          </div>
       </div>
     </div>
 
