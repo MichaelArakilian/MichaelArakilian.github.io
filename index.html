@@ -594,12 +594,7 @@
         </div>
       </section>
 
-    <section class="ftco-domain">
-        <video id="bgvid" playsinline autoplay muted loop>
-            <!-- Video needs to be muted, since Chrome 66+ will not autoplay video with sound. WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-          <source src="https://cdn.shopify.com/s/files/1/2000/5593/files/mlky_6.mp4?5888036803823604689" type="video/webm">
-          <source src="https://cdn.shopify.com/s/files/1/2000/5593/files/mlky_6.mp4?5888036803823604689" type="video/mp4">  
-          </video>
+    <section class="ftco-domain" style="background: url(https://cdn.shopify.com/s/files/1/0161/6107/9360/files/heading-bg-purp.jpg?16297184049423325486)">
         <div class="container">
           <div class="row d-flex">
             <div class="col-lg-5 heading-white mb-3 mb-sm-4 mb-lg-0 ftco-animate">
@@ -690,28 +685,6 @@
 
   <!-- loader -->
   <!-- <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div> -->
-<script>
-var vid = document.getElementById("bgvid");
-var pauseButton = document.querySelector("#polina button");
-
-if (window.matchMedia('(prefers-reduced-motion)').matches) {
-    vid.removeAttribute("autoplay");
-    vid.pause();
-    pauseButton.innerHTML = "Paused";
-}
-
-function vidFade() {
-  vid.classList.add("stopfade");
-}
-
-vid.addEventListener('ended', function()
-{
-// only functional if "loop" is removed 
-vid.pause();
-// to capture IE10
-vidFade();
-}); 
-</script>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
