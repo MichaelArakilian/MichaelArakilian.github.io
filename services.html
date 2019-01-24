@@ -40,11 +40,6 @@
 .btn-group > .btn:first-child {
   background: #db2c29;
 }
-h3 {
-  line-height: 1.5;
-    color: #fff;
-    font-weight: 400;
-}
 .table .thead-primary {
   background: linear-gradient(to top, #181818, #BA8B02);
 }
@@ -59,7 +54,7 @@ h3 {
     background: #db2c29;
 }
 body {
-  /* The image used */
+/* The image used */
 background-image: url("https://cdn.shopify.com/s/files/1/2000/5593/files/mohammed-jabber-765911-unsplash.jpg?1313507776696393011");
 
 /* Set a specific height */
@@ -72,101 +67,7 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-.service-process {
-    background-color: #fafafa;
-    position: relative;
-}
-.wshipping-content-block {
-    padding: 30px 0 60px 0;
-}
-.service-process::before {
-    display: block;
-    content: "";
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    border-top: 1px dashed #cccccc;
-    border-bottom: 1px dashed #fff;
-    width: 100%;
-}
-*::after, *::before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.section-title h2 {
-    margin-top: 0px;
-    text-transform: uppercase;
-    color: #444444;
-}
-.process-step::before {
-    position: absolute;
-    right: -123px;
-    width: 110px;
-    height: 2px;
-    background-color: #db2c29;
-    content: "";
-    top: 80px;
-    display: block;
-}
 
-.process-icon {
-    width: 164px;
-    text-align: center;
-    height: 164px;
-    float: left;
-    border-radius: 100%;
-    background-color: #fff;
-    border: 2px solid #db2c29;
-    position: relative;
-    margin-bottom: 10px;
-}
-.process-icon span {
-    width: 56px;
-    height: 56px;
-    background-color: #db2c29;
-    border: 2px solid #fff;
-    color: #fff;
-    line-height: 56px;
-    font-size: 28px;
-    position: absolute;
-    left: -30px;
-    top: 50%;
-    margin-top: -30px;
-    border-radius: 100%;
-    font-weight: 700;
-}
-.process-step p {
-    text-transform: uppercase;
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-    clear: both;
-}
-.process-step p {
-    margin-bottom: 0px;
-}
-.process-step {
-    float: left;
-    width: 164px;
-    margin-right: 7%;
-    position: relative;
-}
-.process-step:last-child {
-    margin-right: 0px;
-}
-.process-step:last-child::before
- {
-display:none;
-}
-
-#services-icon {
-  height: 80px;
-  margin: 36px;
-}
-.services .icon {
-  background: #db2c29;
-}
 </style>
   </head>
   <body>
@@ -195,7 +96,7 @@ display:none;
   <!-- END nav -->
 
         <section class="home-slider owl-carousel">
-            <div class="slider-item bread-item" style="background-image: url(https://cdn.shopify.com/s/files/1/0161/6107/9360/files/apple-color-bg.jpg?12955442340575621761);" data-stellar-background-ratio="0.5">
+            <div class="slider-item bread-item" style="background-image: url(https://cdn.shopify.com/s/files/1/0161/6107/9360/files/blood-moon.jpg?16050483101772153415);" data-stellar-background-ratio="0.5">
               <div class="overlay"></div>
               <div class="container-fluid">
                 <div class="row slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -210,8 +111,8 @@ display:none;
        
           <section class="ftco-section services-section border border-ruby-red">
               <div class="container">
-                <div class="row justify-content-center mb-3 pb-3">
-                  <div class="col-md-12 text-center heading-section ftco-animate">
+                <div class="row mb-3">
+                  <div class="col-md-12 text-left heading-section ftco-animate">
                     <span class="subheading">Boost Your Business</span>
                     <h2 class="mb-3 ruby-red">The Breakdown</h2>
                     <p>Our team has put together an entire bouqet of online solutions to help scale and fast-track your business.</p>
@@ -300,370 +201,87 @@ display:none;
               </div>
             </section>
 
-      <section class="ftco-section">
-        <div class="container">
-        <div class="wshipping-content-block service-process">
-           <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-              <div class="row">
-                 <div class="col-md-6 col-md-offset-3">
-                    <div class="section-title">
-                       <h2>The Development Flow</h2>
-                       <p class="text-dark">Design is a process & a mindset.</p>
+            <div class="container">
+                <div class="wshipping-content-block service-process">
+                   <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                      <div class="row">
+                         <div class="col-md-12 col-md-offset-3">
+                            <div class="section-title text-left">
+                               <h2 class="ruby-red">The Development Flow</h2>
+                               <p>Design is a process & a mindset.</p>
+                            </div>
+                         
+                         <div class="process-step">
+                            <div class="process-icon">
+                              <span>1</span>
+                              <img id="services-icon" class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/024-think.png?11486285670620342785" alt="">
+                            </div>
+                            <p>Plan</p>
+                         </div>
+                         <div class="process-step">
+                            <div class="process-icon">
+                              <span>2</span>
+                              <img id="services-icon" class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/074-edit.png?11486285670620342785" alt="">
+                            </div>
+                            <p>Design</p>
+                         </div>
+                         <div class="process-step">
+                            <div class="process-icon">
+                              <span>3</span>
+                              <img id="services-icon" class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/018-web.png?11486285670620342785" alt="">
+                            </div>
+                            <p>Develop</p>
+                         </div>
+                         <div class="process-step">
+                            <div class="process-icon">
+                              <span>4</span>
+                              <img id="services-icon" class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/014-www-4.png?11486285670620342785" alt="">
+                            </div>
+                            <p>Deploy</p>
+                         </div>
+                      </div>
                     </div>
-                 </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-12">
-              <div class="process-row">
-                 <div class="process-step">
-                    <div class="process-icon">
-                      <span>1</span>
-                      <img id="services-icon" class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/024-think.png?11486285670620342785" alt="">
-                    </div>
-                    <p>Plan</p>
-                 </div>
-                 <div class="process-step">
-                    <div class="process-icon">
-                      <span>2</span>
-                      <img id="services-icon" class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/074-edit.png?11486285670620342785" alt="">
-                    </div>
-                    <p>Design</p>
-                 </div>
-                 <div class="process-step">
-                    <div class="process-icon">
-                      <span>3</span>
-                      <img id="services-icon" class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/018-web.png?11486285670620342785" alt="">
-                    </div>
-                    <p>Develop</p>
-                 </div>
-                 <div class="process-step">
-                    <div class="process-icon">
-                      <span>4</span>
-                      <img id="services-icon" class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/014-www-4.png?11486285670620342785" alt="">
-                    </div>
-                    <p>Deploy</p>
-                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-        </section>
 
           <div class="container">
             <div class="row d-inline-block justify-content-center mb-3 pb-3">
-                    <div class="col-md-12 text-left heading-section ftco-animate">
-                      <span class="subheading">Select One</span>
-                      <h2 class="mb-3 ruby-red">Get Started</h2>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary.</p>
+                    <div class="col-md-12 text-center heading-section ftco-animate">
+                      <span class="subheading">Solid Structure</span>
+                      <h2 class="mb-3 ruby-red">High-Performance</h2>
+                      <p>Site optimization is a process that requires fine-tuning, monitering, and continuous testing. We build with a robust, flexible architecture for enhanced usability and reduced costs.</p>
                     </div>
+                    <div class="col-md-4 text-left ftco-animate d-inline-block">
+                        <div class="steps">
+                          <div class="icon mb-4 d-flex justify-content-center align-items-center">
+                              <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/046-mobile-phone.png?7355652729846317713" alt="Optimal Speed/Load Times">
+                          </div>
+                          <h3 class="ruby-red">Responsive Design</h3>
+                          <p>Responsive web design makes user-friendly web pages display well on a variety of devices. (phones, tablets, desktops, etc.)
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-4 text-left ftco-animate d-inline-block">
+                          <div class="steps">
+                            <div class="icon mb-4 d-flex justify-content-center align-items-center">
+                                <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/099-analytics.png?7355652729846317713" alt="Optimal Speed/Load Times">
+                            </div>
+                            <h3 class="ruby-red">Optimal Speed/Load Times</h3>
+                            <p>Boost the load times and download speed of your web pages and help accelerate backend system to retain your site visitors.</p>
+                          </div>
+                        </div>
                 <div class="col-md-3 text-left ftco-animate d-inline-block">
                   <div class="steps">
                     <div class="icon mb-4 d-flex justify-content-center align-items-center">
                       <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/082-data-1.png?7355652729846317713" alt="Site Architecture">
                     </div>
-                    <h3>Site Architecture</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                  </div>
-                </div>
-                <div class="col-md-4 text-left ftco-animate d-inline-block">
-                  <div class="steps">
-                    <div class="icon mb-4 d-flex justify-content-center align-items-center">
-                        <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/099-analytics.png?7355652729846317713" alt="Optimal Speed/Load Times">
-                    </div>
-                    <h3>Optimal Speed/Load Times</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                  </div>
-                </div>
-                <div class="col-md-4 text-left ftco-animate d-inline-block">
-                  <div class="steps">
-                    <div class="icon mb-4 d-flex justify-content-center align-items-center">
-                        <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/046-mobile-phone.png?7355652729846317713" alt="Optimal Speed/Load Times">
-                    </div>
-                    <h3>Mobile Responsiveness</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                    <h3 class="ruby-red">Site Architecture</h3>
+                    <p>This consists of strategizing, usability, user interface, user experience and functional components (such as newsletter signups, ad clicks, and making purchases). </p>
                   </div>
                 </div>
             </div>
           </div>
-
-      <section class="ftco-section page-section">
-          <div class="container">
-        <div class="row">
-          <div class="col-4">
-            <div class="card">
-              <div class="card-body">
-    <!-- Default dropright button -->
-    <div class="btn-group dropright">
-        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Content Management Services
-        </button>
-        <div class="dropdown-menu">
-          <!-- Dropdown menu links -->
-           <div class="col-md-12 ftco-animate fadeInUp ftco-animated">
-              <div class="table-responsive">
-              <table class="table">
-              <thead class="thead-primary">
-              <tr>
-              <th><h3>Content Management Services</h3></th>
-              <th>Startup</th>
-              <th>Premium</th>
-              <th>Business</th>
-              <th>Enterprise</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                      <th><h3>Web Development</h3></th>
-                      <th>Startup</th>
-                      <th>Premium</th>
-                      <th>Business</th>
-                      <th>Enterprise</th>
-                      </tr>
-                      </thead>
-                      <tbody>
-                      <tr>
-                      <td>Domain</td>
-                      <td><span>123</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      </tr>
-                      <tr>
-                      <td>Design & Development</td>
-                      <td><span>123</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      </tr>
-                      <tr>
-                      <td>Brand Identity</td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      </tr>
-                      <tr>
-                      <td>Website Development</td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      </tr>
-                      <tr>
-                      <td>Logo & Graphic Design</td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      </tr>
-                      <tr>
-                      <td>Search Engine Optimization (SEO)</td>
-                      <td></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      </tr>
-                      <tr>
-                      <td>User Experience (UX) & User Interface (UI)</td>
-                      <td></td>
-                      <td></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      </tr>
-                      <tr>
-                      <td>Site Optimization</td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td><span>✓</span></td>
-                      </tr>
-                      <tr>
-                      <td>Competition Analysis</td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td><span>✓</span></td>
-                      </tr>
-                      <tr>
-                      <td>Ad Configure/Keywords (FB PIXEL/Google Ads)</td>
-                      <td><span>123</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      </tr>
-                      <tr>
-                      <td>Photography</td>
-                      <td><span>123</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      </tr>
-                      <tr>
-                      <td>Videography</td>
-                      <td><span>123</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      </tr>
-                      <tr>
-                      <td>eCommerce (CART CHECKOUT)</td>
-                      <td><span>123</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-                      <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Business Conulting</td>
-              <td><span>✓</span></td>
-              <td><span>✓</span></td>
-              <td><span>✓</span></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Competitor Analysis</td>
-              <td><span>✓</span></td>
-              <td><span>✓</span></td>
-              <td><span>✓</span></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Audits</td>
-              <td><span>✓</span></td>
-              <td><span>✓</span></td>
-              <td><span>✓</span></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Branding</td>
-              <td></td>
-              <td><span>✓</span></td>
-              <td><span>✓</span></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Copyrights</td>
-              <td></td>
-              <td></td>
-              <td><span>✓</span></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Trademarks</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Photo Shoots</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Video Shoots</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Content Editing</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Graphic Designs</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Back-End Administration</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Back-End Administration</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Web Administration</td>
-              <td></td>
-              <td></td>
-              <td></td>
-               <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Regional Marketing</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Global Marketing</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Newsletters</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Email Templates</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Chat Bots</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Task Automation</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><span>✓</span></td>
-              </tr>
-              <tr>
-              <td>Data Backups</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><span>✓</span></td>
-              </tr>
-              </tbody>
-              </table>
-              </div>
-              </div>
-              </div>
-              </div> 
-        </div>
-      </div>
-        </div>
-        </div>
-        </div>
-        </section>
 
         <section class="ftco-section page-section border border-ruby-red">
             <div class="container">
@@ -736,28 +354,6 @@ display:none;
               </div>
             </div>
           </section>
-
-          <section class="ftco-domain">
-              <div class="container">
-                <div class="row d-flex">
-                  <div class="col-lg-5 heading-white mb-3 mb-sm-4 mb-lg-0 ftco-animate">
-                    <h2>Stay in the loop</h2>
-                    <p>Subscribe to our newsletter for popular posts, news, and updates on the highly anticipated STARTREV 2.0</p>
-                  </div>
-                  <div class="col-lg-7 ftco-wrap ftco-animate fadeInUp ftco-animated">
-                      <div class="domain-form d-flex">
-                      <div class="form-group domain-name">
-                      <input type="text" class="form-control name px-4" placeholder="example@email.com" id="emailTwo">
-                      </div>
-                      <div class="form-group domain-select d-flex">
-                      <input id="removeShadow" type="submit" class="search-domain btn btn-primary text-center" value="Subscribe" onclick="emailSignUpTwo()">
-                      </div>
-                      </div>
-                      <div id="validationResponseTwo" class="resp-message"></div>
-                      </div>
-                </div>
-              </div>
-            </section>
             
             <footer class="section footer-classic border border-space-grey" style="background: #000;">
                 <div class="container">
